@@ -1,53 +1,34 @@
-## Testing Gists
+# Building AWS Lambdas in Python
+
+**Basic lambda**
 
 {% gist 18e17fc5a73a7fba05099acd6b8523d5 %}
 
-vs
+**Logging**
 
-```python3
-import json
+{% gist 895cd088ed670dc3a7b7fec6f6c18f49 %}
 
-def lambda_handler(event, context):
-    print("event", event)
-    message = {"message": "Hello World"}
-    return {"statusCode": 200, "body": json.dumps(message)}
-```
+**Tracing**
 
+{% gist 6a8529610de3ca543938ec09d3c47373 %}
 
-## Welcome to GitHub Pages
+**Metrics**
 
-You can use the [editor on GitHub](https://github.com/michaelbrewer/michaelbrewer.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+{% gist 2a2596ee0d266505615d1a69dbb4bca4 %}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Data Classes**
 
-### Markdown
+{% gist f80d9d0a201ee71944bccaf5b02b16f6 %}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Type Hinting and DocStrings**
 
-```markdown
-Syntax highlighted code block
+{% gist b30d1c5b4c3611135a79f2e773beaa62 %}
 
-# Header 1
-## Header 2
-### Header 3
+**Idempotent**
 
-- Bulleted
-- List
+{% gist 8b7454d70e47df7857c0262f2b3bff20 %}
 
-1. Numbered
-2. List
+**Exception Handling**
 
-**Bold** and _Italic_ and `Code` text
+{% gist dd253f4a8ba30f0606eb12bae94a9a6f %}
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/michaelbrewer/michaelbrewer.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
