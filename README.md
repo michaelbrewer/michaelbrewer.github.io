@@ -2,6 +2,17 @@
 
 {% gist 18e17fc5a73a7fba05099acd6b8523d5 %}
 
+vs
+
+```python3
+import json
+
+def lambda_handler(event, context):
+    print("event", event)
+    message = {"message": "Hello World"}
+    return {"statusCode": 200, "body": json.dumps(message)}
+```
+
 
 ## Welcome to GitHub Pages
 
