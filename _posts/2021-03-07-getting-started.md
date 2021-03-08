@@ -43,4 +43,4 @@ date: 2021-03-07 15:30:15 -0000
 
 ---
 
-[Back to Home](./)
+[Back to Home](/)
