@@ -68,15 +68,19 @@ Adding exception handling
 
 ## Validation
 
-Adding example of input and output validation
+> TODO: Add example of input and output validation
+
+## Paramters
+
+> TODO: Add example of using Parameters to load credentials
 
 ## Event hadler
 
-Add example of the api gateway event handler
+> TODO: Add example of the api gateway event handler
 
 ## Unit Testing
 
-Unit tesitng out lambda
+> TODO: Add Unit tesitng of lambda
 
 ---
 
