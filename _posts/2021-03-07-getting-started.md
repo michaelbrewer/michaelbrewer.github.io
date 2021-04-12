@@ -32,7 +32,7 @@ Adding logging
 
 ## Tracing
 
-Adding tracking 
+Adding tracing 
 
 {% gist 6a8529610de3ca543938ec09d3c47373 %}
 
