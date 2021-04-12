@@ -68,7 +68,11 @@ Adding exception handling
 
 ## Validation
 
-Adding suport for input and output validation
+Adding example of input and output validation
+
+## Event hadler
+
+Add example of the api gateway event handler
 
 ## Unit Testing
 
