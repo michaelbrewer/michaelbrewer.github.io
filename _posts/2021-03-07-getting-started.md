@@ -68,7 +68,9 @@ Adding exception handling
 
 ## Validation
 
-> TODO: Add example of input and output validation
+Adding input and output validation
+
+{% gist 3e8928ae6ad1375cbb6b99b379759f3a %}
 
 ## Paramters
 
