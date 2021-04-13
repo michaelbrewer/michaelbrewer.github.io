@@ -8,7 +8,7 @@ breadcrumbs: true
 
 # Building AWS Lambdas in Python
 
-Covers how to use [AWS Lambda Powertools](https://awslabs.github.io/aws-lambda-powertools-python/) to enrich your existing or new lambda
+Covers how to use [AWS Lambda Powertools](https://awslabs.github.io/aws-lambda-powertools-python/) to enrich your existing or new AWS Lambda functions.
 
 
 ## Basic Payment lambda
@@ -74,11 +74,9 @@ Adding input and output validation
 
 ## Paramters
 
-> TODO: Add example of using Parameters to load credentials
+Loading parameters from AWS Parameter Store
 
-## Event hadler
-
-> TODO: Add example of the api gateway event handler
+{% gist c929574d5adb227476268d79780e4eae %}
 
 ## Modular
 
@@ -89,6 +87,10 @@ Making the lambda modular
 ## Unit Testing
 
 > TODO: Add Unit tesitng of lambda
+
+## Event hadler
+
+> TODO: Add example of the api gateway event handler
 
 ---
 
