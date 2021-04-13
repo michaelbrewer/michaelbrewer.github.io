@@ -80,6 +80,12 @@ Adding input and output validation
 
 > TODO: Add example of the api gateway event handler
 
+## Modular
+
+Making the lambda modular
+
+{% gist baac722f6827a7176f669cf784a7bb26 %}
+
 ## Unit Testing
 
 > TODO: Add Unit tesitng of lambda
