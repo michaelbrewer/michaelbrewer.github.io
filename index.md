@@ -2,6 +2,7 @@
 layout: default
 ---
 
-# Building AWS Lambdas in Python
+# Building AWS Lambdas Function
 
-* [Getting started with AWS Lambda Powertools](https://michaelbrewer.github.io/2021/03/07/getting-started.html)
+* [AWS Lambda Event Documentation](https://michaelbrewer.github.io/aws-lambda-events/)
+* [Getting started with AWS Lambda Powertools - Python](https://michaelbrewer.github.io/2021/03/07/getting-started.html)
